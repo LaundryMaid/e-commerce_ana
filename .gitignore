@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+*.egg
+
+# 虚拟环境
+venv/
+env/
+.venv/
+
+# 依赖目录
+.deps/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# 数据文件 (不上传原始数据集)
+data/*.csv
+data/*.xlsx
+data/*.xls
+data/*.json
+
+# 生成的图片 (可选: 如需保留图片可注释掉此行)
+# data/*.png
+
+# 排除特定图片
+data/roi_ratio_sensitivity.png
+
+# 操作系统
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# 其他
+*.log
+*.tmp
